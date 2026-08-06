@@ -1,0 +1,141 @@
+/* =========================================================
+   Suicide Risk Assessment Agent
+   Modern Glassmorphism UI
+========================================================= */
+
+/* Main App */
+.stApp {
+    background: linear-gradient(135deg, #eef2ff, #dbeafe);
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    color: white;
+    padding: 30px;
+    border-radius: 18px;
+    text-align: center;
+    margin-bottom: 25px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.15);
+}
+
+.header h1{
+    margin:0;
+    font-size:42px;
+}
+
+.header h4{
+    margin-top:10px;
+    font-weight:400;
+}
+
+/* Info Card */
+.info-box{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    border-left:7px solid #2563eb;
+    box-shadow:0 6px 18px rgba(0,0,0,0.08);
+    font-size:18px;
+}
+
+/* Text Area */
+textarea{
+    border-radius:12px !important;
+    border:2px solid #2563eb !important;
+    font-size:17px !important;
+}
+
+/* Button */
+.stButton>button{
+
+    width:100%;
+
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+
+    color:white;
+
+    font-size:20px;
+
+    border:none;
+
+    border-radius:12px;
+
+    padding:14px;
+
+    font-weight:bold;
+
+    transition:0.3s;
+}
+
+.stButton>button:hover{
+
+    transform:scale(1.03);
+
+    background:linear-gradient(135deg,#1d4ed8,#6d28d9);
+
+    color:white;
+}
+
+/* Sidebar */
+
+section[data-testid="stSidebar"]{
+
+    background:#1e293b;
+
+    color:white;
+}
+
+section[data-testid="stSidebar"] *{
+
+    color:white;
+}
+
+/* Metric */
+
+div[data-testid="metric-container"]{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+    border-left:6px solid #2563eb;
+}
+
+/* Success Box */
+
+div[data-baseweb="notification"]{
+
+    border-radius:12px;
+}
+
+/* Footer */
+
+footer{
+
+    visibility:hidden;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+
+    width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#2563eb;
+
+    border-radius:20px;
+}
+
+::-webkit-scrollbar-track{
+
+    background:#e5e7eb;
+}
