@@ -1,6 +1,6 @@
 fastapi
 uvicorn[standard]
-streamlit
+streamlit>=1.40
 numpy
 pandas
 scikit-learn
